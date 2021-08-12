@@ -194,9 +194,9 @@ const work8 = () => {
   function sumOfNambers(...arg) {
     if (arg.length === 1) return arg[0];
     else {
-      let a = arg.pop();
-      let b = arg.pop();
-      return sumOfNambers(...arg, a + b);
+      let num1 = arg.pop();
+      let num2 = arg.pop();
+      return sumOfNambers(...arg, num1 + num2);
     }
   }
   sumOfNambers(1, 2, 3, 4, 5);
