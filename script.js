@@ -157,8 +157,8 @@ let work6 = () => {
   //   return a.split(b).join(" ");
   // }
 
-  function concat(a, b, c) {
-    alert(a + b + c);
+  function concat(str1, symbol, str2) {
+    alert(str1 + symbol + str2);
   }
   let hello = concat.bind(null, "Hello", " ");
   hello("Dima");
